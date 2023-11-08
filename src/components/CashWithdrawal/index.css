@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.white-background {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 10px;
+  height: 100%;
+}
+.profile-container {
+  display: flex;
+  justify-content: row;
+}
+.first-letter {
+  background-color: beige;
+  border-radius: 25px;
+  color: blueviolet;
+  font-size: 25px;
+  font-weight: bold;
+}
+.customer-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-text {
+  color: blueviolet;
+  font-size: 23px;
+  font-weight: bold;
+}
+.amount-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.rupees-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.rupees-text {
+  color: blueviolet;
+  font-size: 23px;
+  font-weight: bold;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+.withdraw-text {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+.choose-text {
+  color: blueviolet;
+  font-size: 24px;
+  font-weight: bold;
+}
+.unordered-item {
+  display: flex;
+  flex-direction: row;
+}
