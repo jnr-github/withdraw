@@ -3,15 +3,15 @@ import './index.css'
 
 const DenominationItem = props => {
   const {itemDetails, decreaseAmount} = this.props
-  const {id, value} = itemDetails
+  const {value} = itemDetails
 
-  const onDecrease = id => {
-    decreaseAmount(id)
+  const onDecrease = value => {
+    decreaseAmount(value)
   }
 
   return (
     <li className="button-background">
-      <button onClick={this.onDecrease} type="button" className="button-text">
+      <button onClick={onDecrease} type="button" className="button-text">
         {value}
       </button>
     </li>
